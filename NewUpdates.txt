@@ -1,0 +1,29 @@
+2023.4.9 ::
+
+1_ adduser's form is done ....it will send json object with these data :
+{
+    firstname:
+    lastname:
+    email:
+    password:
+    address: 
+    phone:
+    father:
+    mother:
+    bio:
+    gender:
+    blood:
+    status:
+    relgion:
+    joined year:
+    joined month:
+    joined day:
+}
+
+April 12 -> 14:
+
+    AddUser functionality is done
+    login -- not done yet
+    models.py default values has been editied
+    contacts api endpoint almost done -- 1 bug to fix - auth required
+    planted most api endpoints for (students - teacher - admin )

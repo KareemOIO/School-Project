@@ -1,0 +1,118 @@
+.small-intro-card{
+    max-width: 400px;
+    width: 100%;
+    height: 110px;
+    flex:1
+}
+
+
+
+
+
+.notification{
+    max-width: 400px;
+    width: 100%;
+    flex: 1;
+}
+.notification-container{
+    height: 400px;
+    overflow-y: scroll;
+}
+.notification-container .box .box-details span{
+    font-size: 14px;
+}
+
+
+.Student-courseCard{
+    max-width: 100%;
+    width: 100%;
+    min-height: 230px;
+    cursor: pointer;
+}
+.Student-courseCard .Student-courseCard-img{
+    max-width: 350px;
+    width: 100%;
+    /* flex: 1; */
+}
+.Student-courseCard .Student-courseCard-details{
+    width: 100%;
+}
+
+
+
+.course-card {
+    /* border: 1px solid black; */
+    /* max-width: 400px; */
+    width: 100%;
+    height: 470px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.Courses .course-card .course-card-text .course-card-title {
+    transform: scaleY(.8);
+}
+
+.Courses .course-card p:first-of-type {
+    color: red;
+    font-size: .9rem;
+}
+
+.Courses .course-card-text {
+    background-color: #f7f7f7;
+}
+
+.Courses .course-card-text .course-card-text {
+    color: #636363;
+    font-size: 1rem;
+}
+
+.card-img-conrainerHover {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.card-img {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+}
+
+.hoverImg {
+    transition: .3s ease;
+}
+
+.hoverImg:hover {
+    transform: scale(1.1);
+}
+
+.backgroundimg1 {
+    background-image: url(../../imgs/popularcource1.jpg);
+}
+
+.backgroundimg2 {
+    background-image: url(../../imgs/popularcource2.jpg);
+}
+
+.backgroundimg3 {
+    background-image: url(../../imgs/popularcource3.jpg);
+}
+
+.backgroundimg4 {
+    background-image: url(../../imgs/popularcource4.jpg);
+}
+.backgroundimg5 {
+    background-image: url(../../imgs/popularcource5.jpg);
+}
+.backgroundimg6 {
+    background-image: url(../../imgs/popularcource6.jpg);
+}
+
+
+
+.Admain-social-media-cards .social-media-card{
+    max-width: 240px;
+    width: 100%;
+    padding: 40px 30px;
+}

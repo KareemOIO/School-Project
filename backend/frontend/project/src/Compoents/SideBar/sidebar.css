@@ -1,0 +1,114 @@
+.SideBar {
+    width: 240px;
+    transition: .3s ease;
+    position: relative;
+    display: flex;
+
+}
+
+@media (max-width:1000px) {
+    .SideBar {
+        display: none;
+    }
+
+    .Miniside-bar {
+        display: block;
+    }
+}
+
+@media (min-width:1000px) {
+    .Miniside-bar {
+        display: none;
+    }
+}
+.SideBar .sidebar-arrow{
+    transition: .3s ease;
+    transform: rotateY(0deg);
+}
+.SideBar .sidebar-arrow.active{
+    transform: rotateY(180deg);
+}
+.SideBar ul{
+    padding:0 20px;
+    top: 0px;
+    right: 0;
+}
+.SideBar ul li {
+    margin: 5px 0 0;
+    border-radius: 16px 10px;
+    position: relative;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+/* when last div outside the ul .... or it will be SideBar ul li a */
+.SideBar  a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: .5s ease;
+    user-select: none;
+}
+.SideBar a *{
+    pointer-events: none;
+}
+
+.SideBar ul li:not(.active) a:hover {
+    padding-left: 15px;
+}
+.SideBar ul li.active {
+    background-color: #ececec;
+
+}
+.SideBar ul li:not(.active) .bi {
+    fill: white;
+}
+.sidebar-logout-section div{
+    display: flex;
+    transition: .3s 2s ease;
+    transition-delay: 2s;
+}
+
+
+
+
+
+
+
+.Miniside-bar {
+    z-index: 22;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0;
+    padding: 100px 20px;
+    /* background-color: rgb(128, 5, 158); */
+    background-color: rgb(129, 15, 206);
+    transition: .6s ease;
+}
+
+.Miniside-bar ul li a {
+    color: white;
+    text-decoration: none;
+    transition: .5s ease;
+    font-size: 18px;
+    fill: white;
+}
+
+.Miniside-bar ul li {
+    margin-bottom: 20px;
+}
+
+.Miniside-bar button {
+    /* width: 20px; */
+    padding: 10px;
+    height: 40px;
+    color: white;
+    border: none;
+    background-color: rgb(129, 15, 206);
+    position: absolute;
+    left: 100%;
+    top: 300px;
+}
